@@ -36,36 +36,52 @@ RandSpeed(x,y) {
 
 ; Gmaul Double Whack
 4:: 
-; Click weapon
+BlockInput, On
 MouseGetPos xpos, ypos
-MouseMove, 637, 498, RandSpeed(1,5)
-RandSleep(sleep_lower,sleep_upper)
-
-Click
-RandSleep(sleep_lower,sleep_upper)
-
-; Click spec bar x2
-Send, {f2}
-RandSleep(sleep_lower, sleep_upper)
-Click
-; Once now
-RandSleep(sleep_lower, sleep_upper)
-Click
 
 ; Ultimate Strength On
 Send, {f3}
+MouseMove, 650, 390, RandSpeed(1,5)
 RandSleep(sleep_lower, sleep_upper)
-MouseMove, 666, 350, RandSpeed(1,5)
+Click
+RandSleep(sleep_lower, sleep_upper)
+
+; Click weapon
+Send, {f1}
+RandSleep(sleep_lower, sleep_upper)
+
+MouseMove, 615, 540, RandSpeed(1,5)
+RandSleep(sleep_lower,sleep_upper)
+Click
+RandSleep(sleep_lower,sleep_upper)
+
+; Click spec bar Once
+Send, {f2}
+RandSleep(sleep_lower, sleep_upper)
+Click
+; Click spec bar Again
 RandSleep(sleep_lower, sleep_upper)
 Click
 RandSleep(sleep_lower, sleep_upper)
 
 
 ; Click Player
-MouseMove, xpos, ypos, 1
+MouseMove, xpos, ypos, RandSpeed(1,5)
 RandSleep(sleep_lower,sleep_upper)
 Click
+
+; Click secondary
+; Send, {f1}
+; RandSleep(sleep_lower,sleep_upper)
+; MouseMove, 661, 531, RandSpeed(1,5)
+; RandSleep(sleep_lower,sleep_upper)
+; Click
+; RandSleep(sleep_lower,sleep_upper)
+
+BlockInput, Off
 return
+
+
 
 ; 2nd spec and Prayers off
 5::
