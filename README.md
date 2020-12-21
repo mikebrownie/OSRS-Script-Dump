@@ -1,5 +1,8 @@
 # OSRS-Script-Dump
 Windows - NO AHK - Undetectable Input - Randomized Timing 
+
+Edit - I added some AHK scripts for you AHKers
+
 ## How to use
 1. Clone reposititory
 2. Open game (preferably in a virtual machine)
