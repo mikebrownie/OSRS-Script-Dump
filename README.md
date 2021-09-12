@@ -8,7 +8,7 @@ Edit - I added some AHK scripts for you AHKers
 2. Open game (preferably in a virtual machine)
 3. Set mouse in position for auto-clickers
 4. Run the executable in console
-5. Enjoy! (You cant alt-tab out if you are using a VM)
+5. Enjoy!
 ## Scripts
 - Cannon clicker
 
